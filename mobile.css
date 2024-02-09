@@ -1,0 +1,116 @@
+@media only screen and (max-width: 600px) {
+  .sectionContainer {
+    padding: 60px 0;
+  }
+  .navbar {
+    padding: 16px;
+    width: 85%;
+  }
+  .navbar a {
+    display: none;
+  }
+  .topNavContainer .menuIcon {
+    display: block;
+  }
+  .topNavContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar.responsive {
+    position: relative;
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    backdrop-filter: blur(30px);
+  }
+  .navbar.responsive .menuItem {
+    margin-top: 50px;
+  }
+  .navbar.responsive a {
+    display: block;
+    text-align: left;
+    padding: 16px 0;
+  }
+  .navbar a,
+  .navbar.responsive a {
+    transition: 0.3s;
+  }
+  .heroSection {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .heroTextSection {
+    width: 100%;
+    text-align: center;
+  }
+  .heroTextSection h1 {
+    font-size: 40px;
+    color: #e6e6e6;
+  }
+  .heroTextSection p {
+    font-size: 20px;
+  }
+  .heroImageSection {
+    width: 100%;
+  }
+  .featureContainer {
+    width: 100%;
+  }
+  .stepImageContainer {
+    width: 100%;
+  }
+  .stepSectionContainer {
+    gap: 50px;
+  }
+  .testimonyContainer {
+    height: 500px;
+  }
+  .testimony {
+    width: 100%;
+    margin-right: 0;
+  }
+  .testimonialSectionContainer {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .testimonyContent {
+    width: 100%;
+  }
+  .aboutUsLogoSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutUsContainer {
+    gap: 50px;
+  }
+  .aboutUsTextSection {
+    text-align: center;
+  }
+  .faqSection {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+  .faqContainer {
+    width: 100%;
+  }
+  .leftFaqContainer,
+  .righFaqContainer {
+    width: 100%;
+  }
+  .footerContainer {
+    width: 100%;
+    height: 250px;
+  }
+}
