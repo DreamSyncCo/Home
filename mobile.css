@@ -67,22 +67,29 @@
   .stepImageContainer {
     width: 100%;
   }
+  .stepImageContainer img {
+    width: 100%;
+  }
   .stepSectionContainer {
     gap: 50px;
   }
   .testimonyContainer {
-    height: 500px;
+    flex-direction: column-reverse;
+    gap: 50px;
   }
   .testimony {
     width: 100%;
     margin-right: 0;
   }
-  .testimonialSectionContainer {
-    flex-direction: column-reverse;
-    gap: 50px;
+  .testimonyTextSectionContainer {
+    width: 100%;
   }
   .testimonyContent {
     width: 100%;
+  }
+  .dotContainer {
+    position: absolute;
+    bottom: -20px;
   }
   .aboutUsLogoSection {
     width: 100%;

@@ -225,7 +225,10 @@ p {
 .stepImageContainer {
   width: 60%;
   height: 500px;
-  border: 1px solid #6d57ff;
+}
+.stepImageContainer img {
+  width: 90%;
+  height: 500px;
 }
 .allStepContainer {
   flex: 1;
@@ -261,32 +264,42 @@ p {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 .stepContainer p {
-  margin: 20px 0;
+  margin: 20px 4px;
   color: #a0a0a0;
-  font-size: 20px;
+  font-size: 18px;
 }
-.testimonyContainer {
+.testimonialContainerSection {
   width: 100%;
   height: 400px;
-  margin-bottom: 50px;
 }
-.testimonybox {
+.testimonyContainer {
   width: 90%;
   height: 100%;
-}
-.testimonialSectionContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.testimonybox {
+  width: 100%;
   height: 100%;
 }
-.testimonialSectionContainer h3 {
-  margin-top: 50px;
-}
-.testimonialSectionContainer p {
-  line-height: 32px;
-}
 .testimonyContent {
+  width: 40%;
+  height: 100%;
+}
+.testimonyTextSectionContainer {
+  width: 45%;
+  height: 100%;
+  position: relative;
+}
+.testimonyTextSectionContainer p {
+  line-height: 32px;
+  font-size: 18px;
+}
+.testimonyTextSectionContainer h3 {
+  margin-top: 32px;
+}
+.testimonyVideoContainer {
   width: 45%;
   height: 100%;
 }
@@ -306,7 +319,10 @@ p {
     opacity: 1;
   }
 }
-
+.dotContainer {
+  position: absolute;
+  bottom: 0;
+}
 .dot {
   height: 6px;
   width: 6px;

@@ -21,9 +21,7 @@ window.addEventListener("scroll", changeBackground);
 const testimony = document.getElementById("#testimony");
 var slideIndex = 0;
 showSlides();
-testimony.addEventListener("mouseover", () => {
-  alert("hello");
-});
+
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("testimonybox");
@@ -35,7 +33,7 @@ function showSlides() {
     slideIndex = 1;
   }
   slides[slideIndex - 1].style.display = "block";
-  // setTimeout(showSlides, 2000);
+  setTimeout(showSlides, 2000);
 }
 
 function toggleMenu() {
